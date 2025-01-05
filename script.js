@@ -10,7 +10,7 @@ if(storedData){
             <a href="">
             <h3 class="title">${post.title}</h3>
             <div class="data">
-                <p>Posted by User-2</p>
+                <p>Posted by ${post.username}</p>
                 <p>${post.topic}</p>
             </div>
             <div class="data">
